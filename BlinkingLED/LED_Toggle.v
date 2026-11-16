@@ -1,10 +1,10 @@
 module LED_Toggle_Project(
-input i_Clk,
-input i_Switch_1,
-output o_LED_1);
+    input i_Clk,
+    input i_Switch_1,
+    output o_LED_1);
 
-    reg r_LED_1 = 1'b0;
-    reg r_Switch_1 = 1'b0;
+    reg r_LED_1     = 1'b0;
+    reg r_Switch_1  = 1'b0;
 
     always @(posedge i_Clk)
     begin

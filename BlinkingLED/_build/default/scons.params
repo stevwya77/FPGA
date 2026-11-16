@@ -1,4 +1,4 @@
-timestamp: "13043055342"
+timestamp: "16011600370"
 arch: ICE40
 fpga_info {
   fpga_id: "ice40hx1k-vq100"
@@ -9,16 +9,11 @@ fpga_info {
     package: "vq100"
   }
 }
-verbosity {
-  all: false
-  synth: false
-  pnr: false
-}
 environment {
   platform_id: "darwin-arm64"
   is_windows: false
   terminal_mode: FORCE_TERMINAL
-  theme_name: "light"
+  theme_name: "dark"
   debug_level: 0
   yosys_path: "/Users/stephanie/.apio/packages/oss-cad-suite/share/yosys"
   trellis_path: "/Users/stephanie/.apio/packages/oss-cad-suite/share/trellis"
@@ -32,4 +27,9 @@ apio_env_params {
   env_name: "default"
   board_id: "go-board"
   top_module: "LED_Toggle_Project"
+}
+target {
+  upload {
+    programmer_cmd: "iceprog -d d:0/2 $SOURCE"
+  }
 }

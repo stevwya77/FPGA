@@ -2685,21 +2685,21 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "LED_Toggle.v:2.7-2.12"
+            "src": "LED_Toggle.v:2.11-2.16"
           }
         },
         "i_Switch_1": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "LED_Toggle.v:3.7-3.17"
+            "src": "LED_Toggle.v:3.11-3.21"
           }
         },
         "o_LED_1": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "LED_Toggle.v:4.8-4.15"
+            "src": "LED_Toggle.v:4.12-4.19"
           }
         },
         "r_LED_1": {
